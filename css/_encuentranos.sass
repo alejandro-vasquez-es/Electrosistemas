@@ -1,0 +1,84 @@
+.encuentranos
+	h2
+		text-align: center
+		font-size: 3.6rem
+		color: $titulo
+		letter-spacing: 0.01em
+		padding-top: 2rem
+		padding-bottom: 2rem
+	ul
+		list-style: none
+		line-height: 3
+		text-align: center
+		font-size: 1.7rem
+		padding-bottom: 1rem
+		padding-right: 3rem
+		li
+			color: #5e5e5e
+			a
+				color: #454545
+.image-slider
+	width: 400px
+	height: auto
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	margin: auto
+	.slider
+		box-shadow: 0 2px 4px rgba(0,0,0,0.5)
+		overflow: hidden
+		figure
+			position: relative
+			width: 500%
+			margin: 0
+			left: 0
+			animation: 12s slider infinite
+			img 
+				width: 20%
+				float: left
+	.slider2
+		box-shadow: 0 2px 4px rgba(0,0,0,0.5)
+		overflow: hidden
+		figure
+			position: relative
+			width: 500%
+			margin: 0
+			left: 0
+			animation: 16s slider2 infinite
+			img 
+				width: 20%
+				float: left
+@keyframes slider
+	0%
+		left: 0
+	30%
+		left: 0
+	35%
+		left: -100%
+	65%
+		left: -100%
+	70%
+		left: -200%
+	90%
+		left: -200%
+	100%
+		left: -300%
+@keyframes slider2
+	0%
+		left: 0
+	20%
+		left: 0
+	25%
+		left: -100%
+	45%
+		left: -100%
+	50%
+		left: -200%
+	70%
+		left: -200%
+	75%
+		left: -300%
+	95% 
+		left: -300%
+	100%
+		left: -400% 
